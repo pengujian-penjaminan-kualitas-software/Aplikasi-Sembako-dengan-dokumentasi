@@ -1,0 +1,36 @@
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\bin\Debug\SEMBAKO JAYA.exe.config
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\bin\Debug\SEMBAKO JAYA.exe
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\bin\Debug\SEMBAKO JAYA.pdb
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.LoginForm.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.csproj.GenerateResource.Cache
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.exe
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.pdb
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.dashboard.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.databarang.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Register.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.ManajemenAdmin.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Data_Kasir.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.admin.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Cobb.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Koneksi.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\LoginForm.resources
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\PROYEK PABD\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.csproj.CoreCompileInputs.cache
+D:\tajikistan\SEMBAKO JAYA\bin\Debug\SEMBAKO JAYA.exe.config
+D:\tajikistan\SEMBAKO JAYA\bin\Debug\SEMBAKO JAYA.exe
+D:\tajikistan\SEMBAKO JAYA\bin\Debug\SEMBAKO JAYA.pdb
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.dashboard.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.databarang.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.LoginForm.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.ManajemenAdmin.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Register.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.csproj.GenerateResource.Cache
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.exe
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.pdb
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Admin_Panel.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.admindashboard.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Lihat_Pembeli.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.Manajemen_Pembeli.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO_JAYA.ceksisabarang.resources
+D:\tajikistan\SEMBAKO JAYA\obj\Debug\SEMBAKO JAYA.csprojResolveAssemblyReference.cache
