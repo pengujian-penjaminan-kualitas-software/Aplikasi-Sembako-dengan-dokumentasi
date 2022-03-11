@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 namespace SEMBAKO_JAYA
 {
 	/// <summary>
-	/// Description of Koneksi.
+	/// Sumber data untuk menautkan server yang nantinya akan dihubungkan ke database
 	/// </summary>
 	public class Koneksi
 	{
