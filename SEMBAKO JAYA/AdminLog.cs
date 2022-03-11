@@ -11,9 +11,10 @@ namespace SEMBAKO_JAYA
 	/// </summary>
 	public partial class Admin_Panel : Form
 	{
+	///Proses penautan datasource atau sumber data untuk diambil sistem untuk dilakukan pencocokan
 		SqlConnection konecsi = new SqlConnection(@"Data Source=E3-SENTRY;initial Catalog=DBAdmin;integrated Security=True");
 		public Admin_Panel()
-			//class koneksi untuk mengkoneksikan db yang telah dibuat
+			//class koneksi untuk mengkoneksikan db yang telah dibuat :)
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -30,12 +31,16 @@ namespace SEMBAKO_JAYA
 			//dashboard
 		{
 			konecsi.Close();
+			///if = jika , ketika texbox1 dan texbox 2 kosong maka akan menampilkan MessageBox
+			//Messagebox.Show *(tampilkan popup pesan yang akan meminta user untuk mengisikannya
 			if(textBox1.Text == ""|| textBox2.Text == "")
 			{
 				MessageBox.Show("Masukan nama atau kata sandi");
 			}
+			///lain jika user sudah memasukkan sebuah text maka sistem akan mencarikan data yang cocok sesuai yang di tulis dan di klik berada didalam database
 			else
 			{
+			//Query untuk mengambil data dari class Koneksi.cs , yang akan ditempatkan di field perintah oleh query
 				SqlDataAdapter dadapt = new SqlDataAdapter("Select ADMID,ADMPASS from TABELADMIN where ADMID = '" + textBox1.Text +"'AND ADMPASS = '"+textBox2.Text+"'", konecsi);
 				DataTable dt =new DataTable();
 				dadapt.Fill(dt);
@@ -43,6 +48,9 @@ namespace SEMBAKO_JAYA
                 {
 					foreach(DataRow drow in dt.Rows)
 					{
+					///jika data cocok maka sistem akan mengeksekusi kode selanjutnyha yaitu menutup halaman login.cs dan di proses masuk ke halaman selanjutnya
+					///this.Close(); untuk menutup halaman AdminLog.cs kemudian dilanjutkan ke form admindashboard.cs
+					///thedash adalah julukan /class  admindashboard untuk mempersingkat kalimat yang nanti akan dipanggil oleh script untuk ditampilkan
 						this.Close();
 						admindashboard thedash = new admindashboard();
 						thedash.Show();
