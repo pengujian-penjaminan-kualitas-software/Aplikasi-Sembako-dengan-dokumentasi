@@ -32,7 +32,7 @@ namespace SEMBAKO_JAYA
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		///button untuk 
+		///fungsi klik tombol untuk mengirim sebuah objek dan melakukan event
 		void button1_Click(object sender, EventArgs e)
 		{
 		///jika button diklik maka sistem akan mengeksekusi kode berikut
@@ -51,6 +51,7 @@ namespace SEMBAKO_JAYA
 			}
 			else
 			{
+			///untuk menampilkan perigatan jika sistem tidak menemukan atau mencocokkan data yang diinput oleh user
 				MessageBox.Show("Informasi salah");
 			}
 
