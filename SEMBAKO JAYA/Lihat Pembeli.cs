@@ -11,10 +11,11 @@ using System.Data.SqlClient;
 namespace SEMBAKO_JAYA
 {
 	/// <summary>
-	/// Description of Lihat_Pembeli.
+	/// Description of Lihat_Pembeli. = form yang hanya berguna untuk melihat pemantauan perkembangan pembeli
 	/// </summary>
 	public partial class Lihat_Pembeli : Form
 	{
+	///query untuk pengambilan data untuk di tampilkan
 		SqlConnection co = new SqlConnection("Server = E3-SENTRY; Database = AnggotaBaru; integrated security = true");
 		SqlCommand mycommand = new SqlCommand();
 		SqlDataAdapter myadapter = new SqlDataAdapter();
@@ -30,6 +31,7 @@ namespace SEMBAKO_JAYA
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		//fungsi yang hanya bisa baca data saja 
 		void readdata() {
 			
 			try {
@@ -41,12 +43,16 @@ namespace SEMBAKO_JAYA
 					dataGridView1.DataSource = ds;
 					dataGridView1.DataMember = "DATABUYER";
 				}
+				//penutupan koneksi
 				co.Close();
 			}
+			//ketika data tertangkap maka akan ditampilkan kedalam textbox dalam bentuk string 
 			catch (Exception ex){
 				MessageBox.Show(ex.ToString());
 			}
 		}
+		///fungsi ketika datagridview diklik maka tulisan yang sebaris akan ditampilkan juga kedalam textbox dalam bentuk string
+		
 		void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
 		{
 			try
@@ -60,6 +66,7 @@ namespace SEMBAKO_JAYA
 
 			}
 		}
+		////fungsi tombol untuk kembali ke dashboard admin
 		void button1_Click(object sender, EventArgs e)
 		{
 			this.Hide();
