@@ -11,12 +11,15 @@ using System.Data.SqlClient;
 namespace SEMBAKO_JAYA
 {
 	public partial class LoginForm : Form
+	///CLASS SQL
 	{
+		///Mewakili pernyataan Transact-SQL atau prosedur tersimpan untuk dijalankan terhadap database SQL Server. 
+		///cmd = class atau julukan untuk pemanggilan fungsi code untuk di eksekusi
 		private SqlCommand cmd;
 		private DataSet ds;
 		private SqlDataAdapter da;
 		private SqlDataReader rd;
-		
+		///pembuatan class koneksi untuk memanggil  koneksi.cs 
 		Koneksi Konn = new Koneksi();
 		public LoginForm()
 		{
@@ -29,8 +32,10 @@ namespace SEMBAKO_JAYA
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		///button untuk 
 		void button1_Click(object sender, EventArgs e)
 		{
+		///jika button diklik maka sistem akan mengeksekusi kode berikut
 			SqlConnection conn = Konn.GetConn();
 			conn.Open();
 			cmd = new SqlCommand ("Select * from Tabeluser where NamaUser='"+ textBox1.Text +"' and " +
@@ -50,10 +55,12 @@ namespace SEMBAKO_JAYA
 			}
 
 		}
+		//button2_Click untuk keluar
 		void button2_Click(object sender, EventArgs e)
 		{
 			Application.Exit();
 		}
+		///label yang mengarah kembali ke dashboard admin
 		void label5_Click(object sender, EventArgs e)
 		{
 			this.Hide();
