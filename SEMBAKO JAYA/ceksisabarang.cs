@@ -6,7 +6,7 @@ using System.Windows.Forms;
 namespace SEMBAKO_JAYA
 {
 	/// <summary>
-	/// Description of ceksisabarang.
+	/// Description of ceksisabarang.= hanya sekedar mengecek barang
 	/// </summary>
 	public partial class ceksisabarang : Form
 	{
@@ -24,7 +24,7 @@ namespace SEMBAKO_JAYA
 
         private void ceksisabarang_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'dBKasirDataSet2.Table_Barang' table. You can move, or remove it, as needed.
+            // TODO: Baris kode ini memuat data ke dalam 'dBKasirDataSet2.Table_Barang' tabel. Anda dapat memindahkan, atau menghapus itu, seperti yang diperlukan.
             this.table_BarangTableAdapter.Fill(this.dBKasirDataSet2.Table_Barang);
 
         }
