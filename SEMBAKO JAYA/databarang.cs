@@ -123,8 +123,11 @@ namespace SEMBAKO_JAYA
 				
 			}
 		}
+		//button dengan fungsi klik untuk menjalankan perintah hapus barang
 		void button3_Click(object sender, EventArgs e)
 		{
+		//sebelum barang terhapus maka akan ditampilkan popupbox terlebih dahulu dengan keputusan messegebox 
+		//melalui DialogResult jika user mengklik Yes maka yang terjadi adalah dieksekusinya query delete tersebut.
 
 			if (MessageBox.Show("Yakin ingin menghapus "+textBox2.Text+"?", "Hapus Data", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
 			{
