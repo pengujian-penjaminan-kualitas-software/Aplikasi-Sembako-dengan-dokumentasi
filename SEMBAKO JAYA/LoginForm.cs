@@ -44,6 +44,7 @@ namespace SEMBAKO_JAYA
 			rd.Read();
 			if (rd.HasRows)
 			{
+			///jika data berhasil cocok dengan yang berada didalam sql maka akan diproses kedalam dashboard.cs
 				this.Hide();
 				conn.Close();
 				dashboard  frm3 = new dashboard();
